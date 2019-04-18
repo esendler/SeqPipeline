@@ -12,4 +12,4 @@ module load fastqc/0.11.8
 
 (in directory which contains subdirectories of all fastq.gz files)
 
-'fastqc -q -t 39 -o fastq-out\/ \*\/\*_Loo\*_\$\*Fastq.gz'
+'fastqc -q -t 39 -o fastq-out \*\/\*_L00\*_R\*Fastq.gz'
