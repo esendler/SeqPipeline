@@ -24,4 +24,9 @@ sample file ("SampleSheet.csv") must contain
 
 `fastqc -q -t 39 -o fastq-out \*\/\*_L00\*_R\*fastq.gz`
 
-## MultiQC  (better for overall QC of multiple files - fastq, bam, counts...)
+## MultiQC  (better for overall QC of multiple files - fastq, fastqc, bam, counts...)
+`module load python/3.7`
+
+(in root directory, with fastqs, fastQC results,bams, etc...)
+
+`multiqc .'
