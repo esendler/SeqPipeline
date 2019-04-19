@@ -22,7 +22,7 @@ sample file ("SampleSheet.csv") must contain
 
 `mkdir fastq-out`
 
-`fastqc -q -t 39 -o fastq-out \*\/\*_L00\*_R\*fastq.gz`
+`fastqc -q -t 39 -o fastq-out /*/\/*_L00\*_R\*fastq.gz`
 
 ## MultiQC  (better for overall QC of multiple files - fastq, fastqc, bam, counts...)
 `module load python/3.7`
