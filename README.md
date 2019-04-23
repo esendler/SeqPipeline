@@ -37,4 +37,4 @@ BST9LW1,BST9LW1,N502,ATAGAGAG
 
 (in root directory, with fastqs, fastQC results,bams, etc...)
 
-`multiqc .'
+`multiqc .`
