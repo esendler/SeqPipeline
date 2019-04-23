@@ -2,7 +2,15 @@
 Pipeline for Illumina sequencing runs - fastq-demux-aligments
 
 # Demultiplexing
-sample file ("SampleSheet.csv") must contain 
+sample file ("SampleSheet.csv") must contain format like:
+
+```
+SampleID,SampleName,I5_Index_ID,index2
+BST9LW1,BST9LW1,N502,ATAGAGAG
+...
+...
+```
+
 `module load bcl2fastq`  (default is now 2.20...)
 
 (use --sample-sheet if not default SampleSheet.csv)
