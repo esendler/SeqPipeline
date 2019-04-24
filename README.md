@@ -38,3 +38,18 @@ BST9LW1,BST9LW1,N502,ATAGAGAG
 (in root directory, with fastqs, fastQC results,bams, etc...)
 
 `multiqc .`
+
+#ALIGNMENT
+(from fastq dir - create names.txt with sample names)
+ `ls HO*R1*|sed 's/_R1.*//g' >../names.txt`
+ 
+ align.sh script should have correct run folder and filePath
+ ```#Update these if copied from another directory
+cd /nfs/rprdata/HOLD/HOLD1b/bams
+filePath=/nfs/rprdata/HOLD/HOLD1b/fastqs
+```
+
+``` mkdir bams
+. run.sh```
+
+
