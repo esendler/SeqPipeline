@@ -41,6 +41,7 @@ BST9LW1,BST9LW1,N502,ATAGAGAG
 
 # ALIGNMENT
 (from fastq dir - create names.txt with sample names)
+
  `ls HO*R1*|sed 's/_R1.*//g' >../names.txt`
  
  align.sh script should have correct run folder and filePath
