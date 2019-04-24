@@ -10,7 +10,10 @@ module load samtools/1.4
 cd /nfs/rprdata/HOLD/HOLD1b/bams
 filePath=/nfs/rprdata/HOLD/HOLD1b/fastqs
 
-genomeindex=/nfs/rprdata/Anthony/data/HISAT2_Index/grch38_snp_tran/genome_snp_tran
+#     hg37
+#genomeindex=/nfs/rprdata/Anthony/data/HISAT2_Index/grch38_snp_tran/genome_snp_tran
+#    hg19/grch37
+genomeindex=/nfs/rprdata/RefGenome/HISAT2/grch37_snp_tran/genome_snp_tran
 
 
 ###Align Reads###
