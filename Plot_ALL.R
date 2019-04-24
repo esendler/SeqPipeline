@@ -42,7 +42,7 @@ library(ggplot2)
 
 levels(countsMelted$variable)
 
-countsMelted$variable <- factor(countsMelted$variable, levels = c("Clean", "Quality.adj", "Sorted.adj"))
+#countsMelted$variable <- factor(countsMelted$variable, levels = c("Clean", "Quality.adj", "Sorted.adj"))
 countsMelted<-merge(countsMelted, total_reads, by="Filename")
 countsMelted<-rbind(countsMelted[countsMelted$variable == "Clean",], countsMelted[countsMelted$variable == "Quality.adj",],countsMelted[countsMelted$variable == "Sorted.adj",])
 countsMelted$Total.Reads<-countsMelted$Total.Reads  #(already changed paired read counts to total reads)
