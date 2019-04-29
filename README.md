@@ -46,8 +46,8 @@ BST9LW1,BST9LW1,N502,ATAGAGAG
  
  align.sh script should have correct run folder and filePath
  ```#Update these if copied from another directory
-cd /nfs/rprdata/HOLD/HOLD1b/bams
-filePath=/nfs/rprdata/HOLD/HOLD1b/fastqs
+cd /nfs/rprdata/HOLD/HOLD1/bams
+filePath=/nfs/rprdata/HOLD/HOLD1/fastqs
 ```
 
 Also - make sure that desired index is selected
