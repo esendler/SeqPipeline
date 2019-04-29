@@ -50,6 +50,14 @@ cd /nfs/rprdata/HOLD/HOLD1b/bams
 filePath=/nfs/rprdata/HOLD/HOLD1b/fastqs
 ```
 
+Also - make sure that desired index is selected
+```
+#     hg37
+#genomeindex=/nfs/rprdata/Anthony/data/HISAT2_Index/grch38_snp_tran/genome_snp_tran
+#    hg19/grch37
+genomeindex=/nfs/rprdata/RefGenome/HISAT2/grch37_snp_tran/genome_snp_tran
+```
+
 ``` mkdir bams
 . run.sh
 ```
