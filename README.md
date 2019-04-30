@@ -17,8 +17,20 @@ BST9LW1,BST9LW1,N502,ATAGAGAG
 
 `bcl2fastq --run-folder-dir 160414_NB500999_0010_AHLFNLBGXX -p 12 --output-dir 160414_NB500999_0010_AHLFNLBGXX/fastq_files --no-lane-splitting`
 
-
-
+# PROCESSING
+## Directory structure
+ ###  Experiment name   ** e.g. ../../../HOLD1
+ ####   ../HOLD1/fastqs   ** (fastqs or symlink to fastqs)
+ (  symlink  ln -s ../../../(fastq-dir)/ fastqs
+ ####   ../HOLD1/bams
+ ####   ../cnts
+ 
+ copy from github 
+  align.sh
+  runAlign.sh
+  HTcnt.sh
+  runHTcnt.sh
+  makeCountMatrix.sh
 
 # FASTQ - QC
 ## fastQC
